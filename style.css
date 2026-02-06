@@ -162,8 +162,8 @@ display: inline-block;
 
 /* Top-right */
 .deco2 {
-    top: -30px;
-    right: -30px;
+    width: 7% !important;
+    max-width: 60px;
 }
 
 /* Bottom-right */
@@ -171,6 +171,7 @@ display: inline-block;
     bottom: -30px;
     right: -30px;
 }
+
 
 
 
