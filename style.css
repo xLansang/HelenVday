@@ -140,13 +140,15 @@ display: inline-block;
 }
 
 
-.decor {
+.decor { 
     position: absolute;
-
-    /* Size relative to window */
-    width: 30%;
-
-
+    /* Size relative to window */ 
+    width: 12%; 
+    
+    max-width: 90px; 
+    /* prevents being too big */ 
+    min-width: 40px; 
+    /* prevents being too small */ 
     pointer-events: none;
 }
 /* Top-left */
