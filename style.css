@@ -154,6 +154,9 @@ display: inline-block;
 .deco1 {
     top: -30px;
     left: -30px;
+
+    width: 30%;
+    max-width: 220px;   /* safety cap */
 }
 
 /* Top-right */
@@ -166,7 +169,11 @@ display: inline-block;
 .deco3 {
     bottom: -30px;
     right: -30px;
+
+    width: 30%;
+    max-width: 220px;   /* safety cap */
 }
+
 
 
 
