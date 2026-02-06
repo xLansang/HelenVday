@@ -141,10 +141,14 @@ display: inline-block;
 
 .decor {
     position: absolute;
-    width: 80px;   /* adjust size */
-    pointer-events: none; /* clicks go through */
-}
 
+    /* Size relative to window */
+    width: 12%;
+    max-width: 90px;   /* prevents being too big */
+    min-width: 40px;   /* prevents being too small */
+
+    pointer-events: none;
+}
 /* Top-left */
 .deco1 {
     top: -30px;
@@ -162,4 +166,5 @@ display: inline-block;
     bottom: -30px;
     right: -30px;
 }
+
 
