@@ -142,10 +142,15 @@ display: inline-block;
 .decor {
     position: absolute;
 
-    /* Size relative to window */
     width: 12%;
-    max-width: 90px;   /* prevents being too big */
-    min-width: 40px;   /* prevents being too small */
+    height: auto;        /* keeps aspect ratio */
+
+    max-width: 80px;     /* hard cap */
+    max-height: 80px;    /* safety */
+
+    min-width: 35px;
+
+    object-fit: contain;
 
     pointer-events: none;
 }
@@ -166,5 +171,6 @@ display: inline-block;
     bottom: -30px;
     right: -30px;
 }
+
 
 
