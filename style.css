@@ -41,6 +41,7 @@ body {
 }
 
 .letter-window{
+    position: relative;
     width: 90vw;
     max-width: 800px;
     aspect-ratio: 3/2;
@@ -137,3 +138,28 @@ display: inline-block;
     background-color: rgba(255,240,240,0.5);
     border-radius: 12px;
 }
+
+.decor {
+    position: absolute;
+    width: 80px;   /* adjust size */
+    pointer-events: none; /* clicks go through */
+}
+
+/* Top-left */
+.deco1 {
+    top: -30px;
+    left: -30px;
+}
+
+/* Top-right */
+.deco2 {
+    top: -30px;
+    right: -30px;
+}
+
+/* Bottom-right */
+.deco3 {
+    bottom: -30px;
+    right: -30px;
+}
+
