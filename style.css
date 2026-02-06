@@ -144,9 +144,8 @@ display: inline-block;
     position: absolute;
 
     /* Size relative to window */
-    width: 12%;
-    max-width: 90px;   /* prevents being too big */
-    min-width: 40px;   /* prevents being too small */
+    width: 30%;
+
 
     pointer-events: none;
 }
@@ -173,6 +172,7 @@ display: inline-block;
     width: 30%;
     max-width: 220px;   /* safety cap */
 }
+
 
 
 
