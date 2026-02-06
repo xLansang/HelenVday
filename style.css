@@ -139,18 +139,14 @@ display: inline-block;
     border-radius: 12px;
 }
 
+
 .decor {
     position: absolute;
 
+    /* Size relative to window */
     width: 12%;
-    height: auto;        /* keeps aspect ratio */
-
-    max-width: 80px;     /* hard cap */
-    max-height: 80px;    /* safety */
-
-    min-width: 35px;
-
-    object-fit: contain;
+    max-width: 90px;   /* prevents being too big */
+    min-width: 40px;   /* prevents being too small */
 
     pointer-events: none;
 }
@@ -171,6 +167,7 @@ display: inline-block;
     bottom: -30px;
     right: -30px;
 }
+
 
 
 
